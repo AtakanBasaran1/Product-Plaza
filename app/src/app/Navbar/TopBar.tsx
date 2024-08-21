@@ -66,7 +66,7 @@ function TopBar() {
       '></span>
       <hr className='relative top-[41px] w-[1275px] left-[261px]' />
       <h1 className='ml-[280px] font-bold '>Dashboard</h1>
-      <div style={{ marginLeft: '1190px', marginTop: '-34px', position: 'fixed' }} >
+      <div style={{ marginLeft: '1220px', marginTop: '-34px', position: 'fixed' }} >
 
         <button
           onClick={settingsTableOpen}
@@ -81,7 +81,7 @@ function TopBar() {
 
         </button>
 
-        <button style={{ fontSize: '15px', fontWeight: 'bold', border: '1px solid lightgray', borderRadius: '8px', width: '180px', height: '35px', marginRight: '12px', top: '-12px', position: 'relative' }}><p style={{ position: 'relative', top: '3px', left: '10px' }}>Change Producer</p>
+        <button style={{ fontSize: '15px', fontWeight: 'bold', border: '1px solid lightgray', borderRadius: '8px', width: '160px', height: '35px', marginRight: '12px', top: '-12px', position: 'relative' }}><p style={{ position: 'relative', top: '3px', left: '10px' }}>Change Store</p>
 
           <svg
             style={{ marginTop: '-20px', marginLeft: '8px', height: '25px' }}

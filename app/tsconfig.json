@@ -35,7 +35,8 @@
     "src/app/ProductPlaza/page.jsx",
     "src/app/ProductPlaza/page.jsx",
     "src/app/ProductPlaza/page.jsx",
-    "src/app/Navbar/TopBar.tsx"
+    "src/app/Navbar/TopBar.tsx",
+    "src/app/Chat/page.tsx"
   ],
   "exclude": [
     "node_modules"

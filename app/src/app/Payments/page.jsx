@@ -102,30 +102,6 @@ function page() {
                     </div>
                 </div>
             )}
-
-            {/* {allTable ? (
-            <div className='
-            bg-white w-[1200px] h-[500px] mt-[-350px] ml-[300px] z-10 absolute
-            '>
-                <div>
-                    <div> <input className='h-[20px] w-[18px] mt-2' type="checkbox" /> <h1 className=' relative top-[-28px] ml-[30px] font-medium'>Product Name</h1></div>
-                    <h1 className='ml-[210px] mt-[-52px] font-medium'>Designer</h1>
-                    <h1 className='ml-[350px] mt-[-24px] font-medium'>Status</h1>
-                    <h1 className='ml-[470px] mt-[-24px] font-medium'>Description</h1>
-                    <h1 className='ml-[630px] mt-[-24px] font-medium'>Date</h1>
-                    <h1 className='ml-[740px] mt-[-24px] font-medium'>Action</h1>
-                </div>
-                <ul>
-                    {items.map((item, index) => {
-                        return (
-                            <li className='text-black ml-7' key={index}> {item.value} </li>
-                        )
-                    })}
-                    <button className='text-black ml-[800px]' onClick={allTableClose}>close</button>
-                </ul>
-            </div>
-        ) : null} */}
-
         </div>
     )
 }

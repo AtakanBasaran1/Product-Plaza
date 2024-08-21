@@ -27,7 +27,9 @@ const page = () => {
             <TopBar />
             <LeftBar />
             <div>
-                {email && <h1 className='ml-[280px] mt-3 font-semibold text-[21px]'>Hello, {splittedEmail[0]} </h1>}
+                {email && <h1 className="ml-[280px] mt-3 font-semibold text-[21px]">
+                    Hello, {splittedEmail[0].charAt(0).toUpperCase() + splittedEmail[0].slice(1)}
+                </h1>}
                 <hr className='w-[1235px] ml-[280px] mt-3' />
                 <div className='w-[1235px] bg-blue-900 h-[200px] ml-[280px] mt-[30px] rounded-md'><p className='text-white relative font-medium text-[30px] top-[145px] left-[20px]'>FabricFleet new version is live!</p></div>
             </div>
